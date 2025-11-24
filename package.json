@@ -1,0 +1,18 @@
+{
+  "name": "seqss",
+  "version": "1.0.0",
+  "description": "Sequelize 数据库种子项目 - 使用 ES 模块和 MySQL",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "seed": "dotenvx run -- node ./src/scripts/seed.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["sequelize", "mysql", "es6", "database", "seed"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^3.15.3",
+    "sequelize": "^6.37.7"
+  }
+}
